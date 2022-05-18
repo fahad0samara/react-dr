@@ -1,4 +1,4 @@
-import img from "../img/Instagram Ad 1080x1080 px (3).png"
+import img from "../img/3.png"
 
 const Section1 = () => {
   return (
@@ -16,19 +16,24 @@ const Section1 = () => {
 been no hold mr. ls at much do made took held help. Latter
 person am secure of estate genius at.</p>
       <div className="flex flex-wrap -mx-2 -mb-2 justify-center items-center">
-        <div className="w-full w-auto px-2 mb-2"><a className="block w-full md:w-auto py-3 px-8 text-center text-black font-bold bg-indigo-200 hover:bg-indigo-300 transition duration-200" href="#">lode more..</a></div>
+        <div className="  drop-shadow-one px-2 mb-2"><a className="block w-full md:w-auto py-3 px-8 text-center text-black font-bold bg-indigo-200 rounded-2xl hover:bg-indigo-300 transition duration-200" href="#"> more..</a></div>
     
       </div>
     </div>
   </div>
   <div className="absolute bottom-0 left-0 h-full md:flex md:flex-col md:justify-center">
-    <div className="hidden md:block mb-8 h-32 lg:h-64 w-32 lg:w-64 bg-[#cce5f8]"></div>
- 
+    <div className="hidden md:block mb-8 h-32 lg:h-64 w-32 lg:w-64 ">
+    <img src={img} alt="" />
+
+    </div>
+   
   
   </div>
   <div className="absolute top-0 right-0 h-full md:flex md:flex-col md:justify-center">
   
-    <div className="hidden md:block mb-8 h-32 lg:h-64 w-32 lg:w-64 bg-[#cce5f8]"></div>
+    <div className="hidden md:block mb-8 h-32 lg:h-64  lg:w-64  ">
+        <img src={img} alt="" />
+    </div>
    
   </div>
 </section>
@@ -68,7 +73,7 @@ person am secure of estate genius at.</p>
             <div className="w-full lg:w-3/5 px-4">
               <div className="flex flex-wrap -mx-4 items-start">
                 <div className="w-full md:w-1/2 px-4 mb-12 md:mb-0 md:mt-40 relative">
-                  <div className="relative text-black bg-[#cce5f8] pt-16 pb-20 px-8 md:px-12 2xl:px-16 -mx-1 border border-black border-opacity-10 z-10 rounded-3xl">
+                  <div className="relative shadow-one text-black bg-[#cce5f8] pt-16 pb-20 px-8 md:px-12 2xl:px-16 -mx-1 border border-black border-opacity-10 z-10 rounded-3xl">
                     <div className="relative inline-flex items-center justify-center mb-8 w-12 h-12 leading-6  bg-blue-500 rounded-full">
                       <span className="text-2xl font-bold">1</span>
                     </div>
@@ -82,7 +87,7 @@ person am secure of estate genius at.</p>
                   <div className="absolute  left-1/2 -bottom-3 transform -translate-x-1/2 w-11/12 h-24 border border-black border-opacity-10 rounded-3xl"></div>
                 </div>
                 <div className="w-full md:w-1/2 px-4 relative">
-                  <div className="relative pt-16 pb-20 px-8 md:px-12 2xl:px-16 -mx-1 text-black bg-[#cce5f8]  border border-black border-opacity-10 z-10 rounded-3xl">
+                  <div className="relative drop-shadow-one pt-16 pb-20 px-8 md:px-12 2xl:px-16 -mx-1 text-black bg-[#cce5f8]  border border-black border-opacity-10 z-10 rounded-3xl">
                     <div className="relative  inline-flex items-center justify-center mb-8 w-12 h-12 leading-6  bg-blue-500 rounded-full">
                       <span className="text-2xl font-bold">2</span>
                     </div>
