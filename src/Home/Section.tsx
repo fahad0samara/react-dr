@@ -1,4 +1,4 @@
-import img from "../img/Instagram Ad 1080x1080 px (3).png"
+import img from "../img/7.png"
 
 export const Section = () => {
     return (
