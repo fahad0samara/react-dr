@@ -33,7 +33,7 @@ export default function Section2() {
             isIntrinsicHeight={true}
             totalSlides={5}
           
-            visibleSlides={4}
+            visibleSlides={3}
             isPlaying={true}
             step={1}
             infinite={false}
