@@ -5,6 +5,7 @@ import {
   ButtonBack,
   ButtonNext,
 } from "pure-react-carousel";
+
 import img0 from "../img/5.png";
 import img from "../img/6.jpg";
 import img5 from "../img/11.jpg";
@@ -24,7 +25,7 @@ export default function Section2() {
     <div>
       <div className="container mx-auto">
           
-        <div className="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4">
+        <div className="flex items-center overflow-hidden scrollbar-hide justify-center  py-24 sm:py-8 px-4">
           {/* Carousel for desktop and large size devices */}
           <CarouselProvider
             className=""
@@ -49,14 +50,14 @@ export default function Section2() {
                 <ButtonBack
                 role="button"
                 aria-label="slide backward"
-                className="absolute z-30 left-0 ml-8 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-40 bg-black rounded-full cursor-pointer"
+                className="absolute z-30 left-0 ml-8  focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-40 bg-black rounded-full cursor-pointer"
                 id="prev"
               >
                 <FaArrowAltCircleLeft size={40} color="white"/>
               </ButtonBack>
-            <div className="w-full relative flex items-center justify-center">
+            <div className=" relative flex items-center    justify-center">
             
-              <div className=" overflow-x-hidden overflow-y-hidden">
+              <div className="    h-full mx-auto overflow-x-hidden overflow-y-hidden ">
                 <Slider
            
                 >
@@ -64,8 +65,8 @@ export default function Section2() {
                     id="slider"
                     className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                   >
-                 <Slide index={6}>
-                    <div className="max-w-sm mx-auto overflow-hidden ">
+                 <Slide index={0}>
+                    <div className="max-w-sm mx-auto scrollbar-hide  overflow-hidden ">
             <img className="object-cover object-center w-full h-56" src={img3} alt="avatar"/>
             
             <div className="flex items-center px-6 py-3 bg-gray-900">
@@ -95,7 +96,7 @@ day everylhing</p>
             </div>
         </div>
                     </Slide>
-                    <Slide index={4}>
+                    <Slide index={1}>
                     <div className="max-w-sm mx-auto overflow-hidden ">
             <img className="object-cover object-center w-full h-56" src={img4} alt="avatar"/>
             
@@ -126,7 +127,7 @@ day everylhing</p>
             </div>
         </div>
                     </Slide>
-                    <Slide index={4}>
+                    <Slide index={2}>
                     <div className="max-w-sm mx-auto overflow-hidden ">
             <img className="object-cover object-center w-full h-56" src={img1} alt="avatar"/>
             
@@ -157,7 +158,7 @@ day everylhing</p>
             </div>
         </div>
                     </Slide>
-                    <Slide index={5}>
+                    <Slide index={3}>
                     <div className="max-w-sm mx-auto overflow-hidden ">
             <img className="object-cover object-center w-full h-56" src={img5} alt="avatar"/>
             
@@ -188,7 +189,7 @@ day everylhing</p>
             </div>
         </div>
                     </Slide>
-                    <Slide index={6}>
+                    <Slide index={4}>
                     <div className="max-w-sm mx-auto overflow-hidden ">
             <img className="object-cover object-center w-full h-56" src={img6} alt="avatar"/>
             
