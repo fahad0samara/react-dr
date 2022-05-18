@@ -78,7 +78,7 @@ export default function Section2() {
             <div className="px-6 py-4">
                 <h1 className="text-xl font-semibold ">Oncologist</h1>
 
-                <p className="py-2 ">Full And excellence partiality estimating terminated
+                <p data-aos="zoom-in-right" className="py-2 ">Full And excellence partiality estimating terminated
 day everylhing</p>
                 
                 <div className="flex items-center mt-4 ">
@@ -91,7 +91,7 @@ day everylhing</p>
                 <div className="flex items-center mt-4  ">
                    <AiOutlineMail color=" red"/>
                     
-                    <h1 className="px-2 text-sm">lean@gmail.com</h1>
+                    <h1 data-aos="zoom-in-right" className="px-2 text-sm">lean@gmail.com</h1>
                 </div>
             </div>
         </div>
@@ -109,7 +109,7 @@ day everylhing</p>
             <div className="px-6 py-4">
                 <h1 className="text-xl font-semibold ">physicians</h1>
 
-                <p className="py-2 ">Full And excellence partiality estimating terminated
+                <p data-aos="zoom-in-left" className="py-2 ">Full And excellence partiality estimating terminated
 day everylhing</p>
                 
                 <div className="flex items-center mt-4 ">
@@ -140,7 +140,7 @@ day everylhing</p>
             <div className="px-6 py-4">
                 <h1 className="text-xl font-semibold ">Oncologist</h1>
 
-                <p className="py-2 ">Full And excellence partiality estimating terminated
+                <p data-aos="zoom-in-down" className="py-2 ">Full And excellence partiality estimating terminated
 day everylhing</p>
                 
                 <div className="flex items-center mt-4 ">
@@ -171,7 +171,7 @@ day everylhing</p>
             <div className="px-6 py-4">
                 <h1 className="text-xl font-semibold ">Pediatricians</h1>
 
-                <p className="py-2 ">Full And excellence partiality estimating terminated
+                <p data-aos="zoom-in-down" className="py-2 ">Full And excellence partiality estimating terminated
 day everylhing</p>
                 
                 <div className="flex items-center mt-4 ">
@@ -202,7 +202,7 @@ day everylhing</p>
             <div className="px-6 py-4">
                 <h1 className="text-xl font-semibold ">Neurologists</h1>
 
-                <p className="py-2 ">Full And excellence partiality estimating terminated
+                <p data-aos="zoom-in-down" className="py-2 ">Full And excellence partiality estimating terminated
 day everylhing</p>
                 
                 <div className="flex items-center mt-4 ">
@@ -243,7 +243,7 @@ day everylhing</p>
             isIntrinsicHeight={true}
             totalSlides={2}
           >
-            <h1 className="text-5xl font-bold xl:block hidden leading-tight ">
+            <h1 data-aos="zoom-in-down" className="text-5xl font-bold xl:block hidden leading-tight ">
               What our customers are
               <br />
               saying
@@ -265,7 +265,7 @@ day everylhing</p>
                 <FiArrowRightCircle color="white" size={40} />
               </ButtonNext>
             </div>
-            <h1 className="text-5xl font-bold xl:hidden block leading-tight lg:leading-10 ">
+            <h1  data-aos="zoom-in-up"  className="text-5xl font-bold xl:hidden block leading-tight lg:leading-10 ">
               What our customers are saying
             </h1>
             <Slider>
@@ -287,10 +287,10 @@ day everylhing</p>
                     </div>
                     <div className="md:w-1/3 lg:w-1/3 xl:ml-32 md:ml-20 md:mt-0 mt-4 flex flex-col justify-between">
                       <div>
-                        <h1 className="text-2xl font-semibold xl:leading-loose ">
+                        <h1 data-aos="fade-down" className="text-2xl font-semibold xl:leading-loose ">
                           Some of the best work that was done!
                         </h1>
-                        <p
+                        <p data-aos="zoom-out-up"
                           className="text-base font-medium leading-6 mt-4 
                                             "
                         >
@@ -333,7 +333,7 @@ day everylhing</p>
                         <h1 className="text-2xl font-semibold xl:leading-loose ">
                           Some of the best work that was done!
                         </h1>
-                        <p className="text-base font-medium leading-6 mt-4 ">
+                        <p data-aos="zoom-in-right" className="text-base font-medium leading-6 mt-4 ">
                           Our core values are at the heart of all that we do.
                           They are integrated into our daily work lives and help
                           us to remember our customers always comes first, the

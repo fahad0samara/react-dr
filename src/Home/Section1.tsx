@@ -6,13 +6,18 @@ const Section1 = () => {
 <section className=" py-6 relative ">
   <div className="container  mx-auto relative z-10 mt-8 md:mt-0">
     <div className=" lg:max-w-2xl mx-auto text-center">
-      <span className=" uppercase text-3xl font-black" >About Us</span>
-      <h1 className="text-xl md:text-5xl lg:text-6xl font-heading mt-2 mb-6">
+      <span 
+      
+      data-aos="zoom-in-right"
+      className=" uppercase text-3xl font-black" >About Us</span>
+      <h1
+      data-aos="zoom-out-up" className="text-xl md:text-5xl lg:text-6xl font-heading mt-2 mb-6">
         <span>Take</span>
         <span className="text-[#78b7eb]"> And residence for</span>
         <span> met the estimable disposing..</span>
       </h1>
-      <p className="leading-8 mb-10"> Mean if he they
+      <p
+       data-aos="zoom-in-up" className="leading-8 mb-10"> Mean if he they
 been no hold mr. ls at much do made took held help. Latter
 person am secure of estate genius at.</p>
       <div className="flex flex-wrap -mx-2 -mb-2 justify-center items-center">
@@ -32,7 +37,7 @@ person am secure of estate genius at.</p>
   <div className="absolute top-0 right-0 h-full md:flex md:flex-col md:justify-center">
   
     <div className="hidden md:block mb-8 h-32 lg:h-64  lg:w-64  ">
-        <img src={img} alt="" />
+        <img data-aos="zoom-in-right" src={img} alt="" />
     </div>
    
   </div>
@@ -41,14 +46,14 @@ person am secure of estate genius at.</p>
       <section className="py-24 2xl:pt-40 2xl:pb-44  ">
         <div className="container px-4 mx-auto">
           <div className="flex flex-wrap -mx-4">
-            <div className="w-full lg:w-2/5 px-4 mb-20 lg:mb-0">
+            <div data-aos="fade-down" className="w-full lg:w-2/5 px-4 mb-20 lg:mb-0">
               <span className="block mb-9 text-2xl font-medium uppercase leading-4  tracking-widest">
                 How it works
               </span>
               <h2 className="mb-12 md:text-7xl sm:text-4xl text-2xl   font-medium font-heading leading-none">
                 Easy to use. Really
               </h2>
-              <p className="mb-16 lg:mb-20 text-xl lg:text-2xl leading-relaxed font-heading font-medium">
+              <p data-aos="zoom-in-left" className="mb-16 lg:mb-20 text-xl lg:text-2xl leading-relaxed font-heading font-medium">
                 Phasellus eget pretium mi, vestibulum lobortis neque. Nulla
                 bibendum tempor velit, at hendrerit massa fringilla.
               </p>
@@ -66,7 +71,7 @@ person am secure of estate genius at.</p>
                   Get started
                 </button>
               </div>
-              <p className="text-lg leading-6 text-darkBlueGray-400 font-normal">
+              <p data-aos="zoom-in-down" className="text-lg leading-6 text-darkBlueGray-400 font-normal">
                 Explore the plaftorm right here.
               </p>
             </div>
@@ -77,10 +82,10 @@ person am secure of estate genius at.</p>
                     <div className="relative inline-flex items-center justify-center mb-8 w-12 h-12 leading-6  bg-blue-500 rounded-full">
                       <span className="text-2xl font-bold">1</span>
                     </div>
-                    <h2 className="mb-14 text-6xl leading-tight font-medium font-heading">
+                    <h2  data-aos="zoom-in-up" className="mb-14 text-6xl leading-tight font-medium font-heading">
                       Choose application
                     </h2>
-                    <p className="text-lg text-darkBlueGray-400">
+                    <p data-aos="zoom-in-right" className="text-lg text-darkBlueGray-400">
                       The nulla commodo, commodo eros a, tristique lectus.
                     </p>
                   </div>
@@ -91,10 +96,10 @@ person am secure of estate genius at.</p>
                     <div className="relative  inline-flex items-center justify-center mb-8 w-12 h-12 leading-6  bg-blue-500 rounded-full">
                       <span className="text-2xl font-bold">2</span>
                     </div>
-                    <h2 className="mb-14 text-7xl 2xl:text-8xl leading-tight font-medium font-heading">
+                    <h2 data-aos="fade-left" className="mb-14 text-7xl 2xl:text-8xl leading-tight font-medium font-heading">
                       Feel free, take all
                     </h2>
-                    <p className="text-lg text-darkBlueGray-400">
+                    <p data-aos="zoom-in-right" className="text-lg text-darkBlueGray-400">
                       Proin nec nunc felis. In non tellus ultricies, rutrum
                       lacus et, pharetra elit.
                     </p>
